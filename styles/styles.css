@@ -16,8 +16,8 @@
 .green {
     color: #469165;
 }
-.btn
-{
+
+.btn {
     max-width: 251px;
     padding: 16px 12px;
     font-size: 16px;
@@ -27,8 +27,8 @@
     border: none;
     border-radius: 5px;
 }
-.btn-2
-{
+
+.btn-2 {
     max-width: 198px;
     padding: 16px 12px;
     font-size: 16px;
@@ -37,7 +37,7 @@
     border: 1px solid white;
     border-radius: 5px;
     color: #FFFFFF;
-    
+
 }
 
 /* nav bar  */
@@ -81,7 +81,7 @@ nav button {
     background-size: cover;
     background-position: center;
     height: 675px;
-    
+
 }
 
 .banner-title {
@@ -118,10 +118,73 @@ nav button {
     font-weight: 700;
     text-transform: capitalize;
 }
-.banner-title p
-{
+
+.banner-title p {
     font-size: 18px;
     line-height: 24px;
     color: #FFFFFF;
     margin-bottom: 32px;
+}
+.banner-title button
+{
+    margin-right: 16px;
+}
+
+/* structure */
+#structure {
+    max-width: 1370px;
+    margin: 0 auto;
+
+}
+
+.structure-head h1 {
+    font-size: 48px;
+    text-align: center;
+    padding-top: 40px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.structure-head p {
+    font: 16px;
+    line-height: 20px;
+    color: #627382;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.structure-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.structure-card {
+    max-width: 322px;
+    /* border: 1px solid red; */
+    padding: 24px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+}
+
+.structure-card img {
+    background: #F95555;
+    max-width: 60px;
+    border-radius: 50%;
+    padding:14px;
+    display: block;
+    margin: 0 auto;
+}
+.structure-card h4
+{
+    margin: 16px 0px;
+    text-align: center;
+    font-size: 24px;
+    color: #001931;
+}
+.structure-card p
+{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
 }
