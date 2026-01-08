@@ -125,8 +125,8 @@ nav button {
     color: #FFFFFF;
     margin-bottom: 32px;
 }
-.banner-title button
-{
+
+.banner-title button {
     margin-right: 16px;
 }
 
@@ -171,20 +171,80 @@ nav button {
     background: #F95555;
     max-width: 60px;
     border-radius: 50%;
-    padding:14px;
+    padding: 14px;
     display: block;
     margin: 0 auto;
 }
-.structure-card h4
-{
+
+.structure-card h4 {
     margin: 16px 0px;
     text-align: center;
     font-size: 24px;
     color: #001931;
 }
-.structure-card p
-{
+
+.structure-card p {
     font-size: 16px;
     line-height: 20px;
     text-align: center;
+}
+
+/* section brain */
+#brain {
+    padding: 120px 0px;
+    /* background-color: #F95555; */
+}
+
+.brain-container {
+    max-width: 1370px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.brain-image {
+    max-width: 600px;
+    border-radius: 12px;
+}
+
+.brain-description {
+    /* border: 1px solid white; */
+    padding: 100px 0px;
+    max-width: 700px;
+}
+
+.brain-description h5 {
+    color: #469165;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.brain-description h2 {
+    font-size: 48px;
+    color: #001931;
+    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.brain-description p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.list-style li {
+    margin-bottom: 16px;
+    list-style-type: none;
+    position: relative;
+}
+
+.list-style li::before {
+
+    content: "✅";
 }
