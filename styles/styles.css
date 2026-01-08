@@ -1,19 +1,47 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 }
+
 /* Font */
 
 .inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* shared style */
+.green {
+    color: #469165;
+}
+.btn
+{
+    max-width: 251px;
+    padding: 16px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #469165;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+.btn-2
+{
+    max-width: 198px;
+    padding: 16px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #FFFFFF;
+    
 }
 
 /* nav bar  */
-nav
-{
+nav {
     max-width: 1370px;
     margin: 0 auto;
     display: flex;
@@ -21,22 +49,21 @@ nav
     align-items: center;
     padding: 16px;
 }
-nav ul
-{
-    list-style-type:none ;
+
+nav ul {
+    list-style-type: none;
     display: flex;
     gap: 20px;
     align-items: center;
 }
-nav ul a
-{
+
+nav ul a {
     text-decoration: none;
     color: #000000;
 }
 
-nav button
-{
-    width:164px;
+nav button {
+    width: 164px;
     padding: 12px 16px;
     background-color: #469165;
     color: #FFFFFF;
@@ -45,5 +72,56 @@ nav button
     font-size: 16px;
     font-weight: 600;
 }
+
 /* Banner */
 
+#banner {
+    padding-top: 16px;
+    background-image: url('../media/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 675px;
+    
+}
+
+.banner-title {
+    max-width: 1370px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 115px 0px 180px;
+}
+
+.banner-title h5 {
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    max-width: 229px;
+    padding: 12px 8px;
+    margin: 0 auto;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.banner-title h5::before {
+    content: "•";
+}
+
+.banner-title h1 {
+    max-width: 770px;
+    margin: 0 auto;
+    line-height: 84px;
+    font-size: 72px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.banner-title p
+{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
