@@ -286,3 +286,52 @@ nav button {
     text-align: center;
     margin-bottom: 16px;
 }
+
+/* Footer Section */
+
+footer
+{
+    background-color: #001931;
+    margin-top: 120px;
+}
+.footer-container
+{
+    max-width: 1370px;
+    padding: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-image
+{
+    max-width: 140px;
+}
+.social h4
+{
+    margin-bottom: 16px ;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+.social-image 
+{
+    display: flex;
+   justify-content: center;
+}
+.social-image img
+{
+   width: 30px;
+   /* background-color: #F7F6F2; */
+}
+
+section hr
+{
+    color: #9a9ca1;
+    margin-bottom: 10px;
+}
+section p
+{
+    color: #FAFAFA;
+    text-align: center;
+}
