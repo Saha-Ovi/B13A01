@@ -106,7 +106,8 @@ nav button {
 }
 
 .banner-title h5::before {
-    content: "•";
+    /* content: "•"; */
+    content: "🟢";
 }
 
 .banner-title h1 {
@@ -247,4 +248,41 @@ nav button {
 .list-style li::before {
 
     content: "✅";
+}
+
+/* Section ready */
+#ready
+{
+    padding: 120px 0px;
+    /* background-color: #F95555; */
+}
+.ready-description
+{
+    max-width: 1370px;
+    margin: 0 auto;
+    border: 2px solid white;
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+.ready-description h3
+{
+    font-size: 40px;
+    color: #001931;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.ready-description p
+{
+    font: 16px;
+    line-height: 24px;
+    color:#627382;
+    text-align:center;
+    margin-bottom: 24px;
+
+}
+.ready-button
+{
+    text-align: center;
+    margin-bottom: 16px;
 }
