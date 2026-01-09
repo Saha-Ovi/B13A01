@@ -88,6 +88,10 @@ nav button:hover
 {
     background-color:purple;
 }
+.structure-card:hover
+{
+    background-color:rgba(128, 0, 128, 0.521);
+}
 /* Banner */
 
 #banner {
