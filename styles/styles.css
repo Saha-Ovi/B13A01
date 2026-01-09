@@ -121,13 +121,13 @@ nav button:hover
     font-size: 16px;
     font-weight: 300;
     margin-bottom: 16px;
-    position: relative;
+    /* position: relative; */
 }
 
-.banner-title h5::before {
-    /* content: "•"; */
+/* .banner-title h5::before {
+    content: "•";
     content: "🟢";
-}
+} */
 
 .banner-title h1 {
     max-width: 770px;
