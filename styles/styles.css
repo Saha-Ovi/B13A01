@@ -26,6 +26,11 @@
     color: #FFFFFF;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: purple;
 }
 
 .btn-2 {
@@ -37,7 +42,12 @@
     border: 1px solid white;
     border-radius: 5px;
     color: #FFFFFF;
+    cursor: pointer;
 
+}
+.btn-2:hover
+{
+    background-color: purple;
 }
 
 /* nav bar  */
@@ -71,8 +81,13 @@ nav button {
     border-radius: 5px;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
-
+/* hover */
+nav button:hover
+{
+    background-color:purple;
+}
 /* Banner */
 
 #banner {
@@ -242,13 +257,19 @@ nav button {
 .list-style li {
     margin-bottom: 16px;
     list-style-type: none;
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
 }
 
-.list-style li::before {
+/* .list-style li::before {
 
     content: "✅";
-}
+} */
+ .list-style li img
+ {
+    margin-right: 6px;
+ }
 
 /* Section ready */
 #ready
@@ -285,11 +306,13 @@ nav button {
 {
     text-align: center;
     margin-bottom: 16px;
+    cursor: pointer;
 }
+
 
 /* Footer Section */
 
-footer
+.footer-section
 {
     background-color: #001931;
     margin-top: 120px;
